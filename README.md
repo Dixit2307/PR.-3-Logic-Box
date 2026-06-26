@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=1000&lines=Ved+Gabani+%7C+AI%2FML+Engineer;Logic+Box+System;Python+Pattern+%26+Number+Analyzer;Building+Smart+Systems+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=1000&lines=Dixit+Maru+%7C+AI%2FML+Engineer;Logic+Box+System;Python+Pattern+%26+Number+Analyzer;Building+Smart+Systems+🚀" />
 </p>
 
 ---
@@ -14,7 +14,7 @@
 
 <p align="center">
   <b>Interactive Pattern Generator and Number Analysis System</b><br>
-  <i>Designed & Developed by DixtMaru / VedGabani</i>
+  <i>Designed & Developed by DixtMaru</i>
 </p>
 
 ---
@@ -59,3 +59,55 @@ From an AI/ML perspective, mastering control flows, boundary logic validation (`
 ---
 
 ## 🏗️ System Architecture
+
+User Input
+       ↓
+Main Logic Loop
+       ↓
+| Decision Menu |
+ /           \
+↓             ↓
+[Option 1]    [Option 2]
+Pattern       Number
+Generator     Analyzer
+↓             ↓
+Outputs       Outputs
+
+---
+
+## ⚙️ Features
+
+✔ **Right-Angle Triangle Generator** using structured character printing.
+✔ **Left-Angle Triangle Generator** with calculated horizontal padding space.
+✔ **Pyramid Layout Generator** for centered symmetrical structure.
+✔ **Range-based Parity Analysis** (Odd and Even number classification).
+✔ **Summation Calculator** over custom computational ranges.
+✔ **Dynamic Input Verification** to prevent numeric typing exceptions.
+
+---
+
+## 🧠 Concepts Used
+
+* Loop Structures (Nested `for` loops, Infinite `while` loops)
+* String and Type Interception (`isdigit()` validation checks)
+* Control flow conditioning (`if-elif-else`)
+* Local scope state calculation and accumulation
+* Clean multi-tier Console UI design
+
+---
+
+## ▶️ Run the Project
+
+python "Logic Box .py"
+
+🚀 Future Scope
+Integrate structural algorithm rendering into a GUI panel
+
+Expand Analyzer into prime number sorting and mathematical matrix computations
+
+Provide graph plotting vectors based on calculated ranges
+
+Add a machine learning feature to auto-suggest patterns based on user inputs
+
+⭐ Support
+If you like this project, give it a ⭐
