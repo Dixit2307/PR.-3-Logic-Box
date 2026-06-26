@@ -1,192 +1,284 @@
-<!-- 🔴 RED AI BANNER -->
+# <p align="center">🚀 Logic Box</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:8B0000,100:FFC0CB&height=200&section=header&text=Logic%20Box&fontSize=40&fontColor=FFFFFF&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=LOGIC%20BOX&fontColor=ffffff&fontSize=50&animation=fadeIn"/>
 </p>
 
-<!-- 🔥 Typing Animation -->
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=1000&lines=Dixit+Maru+%7C+AI%2FML+Engineer;Logic+Box;Python+CLI+Application;Pattern+Generator+%26+Number+Analyzer+🚀" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Dixit+Maru+%7C+AI%2FML+Developer;Interactive+Python+CLI+Application;Pattern+Generator+%26+Number+Analyzer;Learning+Python+Through+Logic+Building+🚀"/>
+
 </p>
 
----
-
-<h1 align="center">🧠 Logic Box</h1>
-
 <p align="center">
-  <b>Interactive Pattern Generator & Number Analyzer</b><br>
-  <i>Designed & Developed by Dixit Maru</i>
-</p>
 
----
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge\&logo=python)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-CLI-black?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ROLE-AI%20Engineer-blueviolet"/>
-  <img src="https://img.shields.io/badge/SYSTEM-CLI%20Application-black"/>
-  <img src="https://img.shields.io/badge/ARCHITECTURE-Menu%20Driven-green"/>
-  <img src="https://img.shields.io/badge/STATUS-Completed-brightgreen"/>
 </p>
 
 ---
 
-## 🎥 Project Demo
+# 🧠 About Project
 
-<p align="center">
-  <a href="">
-    <img src="https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge"/>
-  </a>
-</p>
+**Logic Box** is a modern Python Command-Line Application that combines **Pattern Generation** and **Number Analysis** into a single interactive program.
 
----
+The project was designed to strengthen logical thinking and programming fundamentals using loops, conditional statements, nested loops, mathematical operations, and menu-driven programming.
 
-## ⚡ Live System Simulation
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=700&color=00FFAA&center=true&vCenter=true&width=900&lines=Initializing+Logic+Box...;Loading+Pattern+Generator...;Loading+Number+Analyzer...;Generating+Output...;Awaiting+User+Input...;Operation+Successful+✅"/>
-</p>
+This project demonstrates how simple Python concepts can be combined to build an organized and user-friendly software application.
 
 ---
 
-## 🧠 Project Description
-
-**Logic Box** is a Python-based command-line application that combines pattern generation and number analysis into one interactive system. It provides users with a menu-driven interface where they can generate different star patterns or perform mathematical operations on a selected range of numbers.
-
-The Pattern Generator module allows users to create Right Angle Triangle, Left Angle Triangle, and Pyramid patterns by entering the desired number of rows. Input validation ensures only valid numeric values are accepted.
-
-The Number Analyzer module performs useful numerical operations including identifying odd and even numbers within a specified range and calculating the sum of all numbers in that range.
-
-The application demonstrates the practical implementation of loops, nested loops, conditional statements, functions, user input handling, and menu-driven programming. It also emphasizes logical thinking and problem-solving, making it an excellent beginner-level Python project.
-
-Logic Box serves as a strong foundation for learning algorithmic thinking and building more advanced applications in Data Science, AI/ML, and Software Development.
-
----
-
-## 🏗️ System Architecture
+# ⚡ Project Preview
 
 ```
-             User
-               │
-               ▼
-        Main Menu System
-               │
-      ┌────────┴────────┐
-      ▼                 ▼
-Pattern Generator   Number Analyzer
-      │                 │
- ┌────┼────┐        ┌────┴─────┐
- ▼    ▼    ▼        ▼          ▼
-Right Left Pyramid Odd/Even   Sum
-Angle Angle Pattern Analysis
-Triangle Triangle             Range
-      │                 │
-      └────────┬────────┘
-               ▼
-        Display Result
+┌───────────────────────────────────────────┐
+│           🚀 LOGIC BOX                     │
+├───────────────────────────────────────────┤
+│ 1️⃣ Pattern Generator                      │
+│ 2️⃣ Number Analyzer                        │
+│ 3️⃣ Exit                                  │
+└───────────────────────────────────────────┘
 ```
 
 ---
 
-## ⚙️ Features
+# ✨ Features
 
-✔ Interactive Menu Driven Application
+## 🎨 Pattern Generator
 
-✔ Right Angle Triangle Pattern
-
-✔ Left Angle Triangle Pattern
-
-✔ Pyramid Pattern Generator
-
-✔ Odd & Even Number Analyzer
-
-✔ Sum of Numbers in a Given Range
-
-✔ User Input Validation
-
-✔ Continuous Program Execution
-
-✔ Beginner Friendly CLI Interface
+* ⭐ Right Angle Triangle
+* ⭐ Left Angle Triangle
+* ⭐ Pyramid Pattern
+* ⭐ User-defined Rows
+* ⭐ Input Validation
 
 ---
 
-## 🧠 Concepts Used
+## 🔢 Number Analyzer
 
-* Python Basics
+* Find Odd Numbers
+* Find Even Numbers
+* Calculate Sum of Range
+* Dynamic Range Selection
 
-* Nested Loops
+---
 
+# 🏗 System Architecture
+
+```
+                     User
+                      │
+                      ▼
+             Main Menu Interface
+                      │
+        ┌─────────────┴─────────────┐
+        ▼                           ▼
+ Pattern Generator          Number Analyzer
+        │                           │
+ ┌──────┼─────────┐         ┌────────┴────────┐
+ ▼      ▼         ▼         ▼                 ▼
+Right  Left    Pyramid   Odd / Even      Sum of Range
+Angle  Angle   Pattern    Detection
+TriangleTriangle
+        │                           │
+        └─────────────┬─────────────┘
+                      ▼
+              Display Output
+```
+
+---
+
+# 📂 Project Structure
+
+```
+Logic-Box
+│
+├── Logic Box.py
+├── README.md
+└── Assets
+```
+
+---
+
+# 🛠 Technologies Used
+
+| Technology             | Usage              |
+| ---------------------- | ------------------ |
+| Python                 | Core Programming   |
+| CLI                    | User Interaction   |
+| Loops                  | Pattern Generation |
+| Conditional Statements | Decision Making    |
+| Mathematical Logic     | Number Analysis    |
+
+---
+
+# 💻 Programming Concepts
+
+* Variables
+* Data Types
+* Input & Output
+* While Loop
+* For Loop
+* Nested Loop
 * Conditional Statements
-
-* While Loops
-
-* For Loops
-
-* User Input Validation
-
-* Mathematical Operations
-
 * Pattern Programming
-
-* Menu Driven Programming
+* Mathematical Operations
+* Input Validation
 
 ---
 
-## ▶️ Run the Project
+# 🚀 Installation
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/Logic-Box.git
+```
+
+```
+cd Logic-Box
+```
+
+```
 python "Logic Box.py"
 ```
 
 ---
 
-## 📊 GitHub Stats
+# ▶️ How It Works
+
+### Step 1
+
+Launch the application.
+
+### Step 2
+
+Choose one of the following options.
+
+```
+1 Pattern Generator
+2 Number Analyzer
+3 Exit
+```
+
+### Step 3
+
+Follow the on-screen instructions.
+
+### Step 4
+
+View the generated output.
+
+---
+
+# 📸 Output
+
+```
+*
+* *
+* * *
+* * * *
+```
+
+```
+1 is Odd
+2 is Even
+3 is Odd
+4 is Even
+```
+
+```
+Sum = 55
+```
+
+---
+
+# 🎯 Learning Outcomes
+
+✔ Python Fundamentals
+
+✔ Logical Thinking
+
+✔ Nested Loop Programming
+
+✔ Pattern Problems
+
+✔ Mathematical Logic
+
+✔ CLI Development
+
+✔ User Input Handling
+
+✔ Menu Driven Programming
+
+---
+
+# 📈 Future Improvements
+
+* GUI Version using Tkinter
+* Web Version using Flask
+* Save Results in File
+* More Pattern Collection
+* Prime Number Checker
+* Fibonacci Generator
+* Multiplication Table Generator
+* Data Visualization
+
+---
+
+# 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dixit2307&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=DixitMaru&show_icons=true&theme=tokyonight"/>
+
 </p>
 
 ---
 
-## 🔥 Contribution Streak
+# 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Dixit2307&theme=tokyonight"/>
+
+<img src="https://streak-stats.demolab.com?user=DixitMaru&theme=tokyonight"/>
+
 </p>
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
-**Dixit Maru**
+## **Dixit Maru**
 
-🚀 AI / ML Engineer
+🚀 AI / ML Developer
 
-💡 Focus: Artificial Intelligence, Machine Learning, Data Analytics & Data Science
+📊 Data Analytics Enthusiast
 
----
+🧠 Data Science Learner
 
-## 🚀 Future Scope
+💻 Python Programmer
 
-* Add More Pattern Types
-
-* Add Prime Number Checker
-
-* Add Fibonacci Series Generator
-
-* Export Results to File
-
-* Develop GUI Version using Tkinter
-
-* Convert into Web Application
-
-* Integrate Data Visualization
+🌱 Always Learning New Technologies
 
 ---
 
-## ⭐ Support
+# ⭐ Show Your Support
 
-If you like this project, give it a ⭐
+If you found this project helpful,
+
+🌟 Star this repository
+
+🍴 Fork the project
+
+🤝 Contribute
+
+---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:8B0000,100:FFC0CB&height=150&section=footer&text=Build%20%E2%80%A2%20Learn%20%E2%80%A2%20Grow&fontSize=25&fontColor=FFFFFF&animation=fadeIn"/>
+
+### 🚀 "Code • Learn • Build • Repeat"
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:2C5364,50:203A43,100:0F2027"/>
+
 </p>
